@@ -11,4 +11,4 @@ elif num==0:
 else:
     for i in range(1,num+1):
         factorial=factorial*i
-    print("Factorial Of",num,"Is : ",factorial)
+    print("Factorial Of ",num,"Is : ",factorial)

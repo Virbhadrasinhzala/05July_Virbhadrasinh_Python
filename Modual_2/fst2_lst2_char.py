@@ -1,10 +1,8 @@
-from itertools import count
-
 
 str=input("Enter a String : ")
-count=0
-for i in str:
-    count=count+1
-    newstr=str[0:2]+str[count-2:count]
-print("Input String : " + str)
-print("New String : " + newstr)
+
+if len(str)<=2:
+        print("Empty String")
+else:
+    newstr=str[:2]+str[-2:]
+    print("New String : ",newstr)
